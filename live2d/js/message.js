@@ -128,9 +128,9 @@ function initLive2d (){
     $('.hide-button').fadeOut(0).on('click', () => {
         $('#landlord').css('display', 'none')
     })
-	$('.switch-button').fadeOut(0).on('click', () => {
+	$('.switch-button').fadeOut(0).on('click', 
         loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Forillusion/Forillusion@v1.0.1/live2d/model/pio/model.json")
-    })
+    )
     $('#landlord').hover(() => {
         $('.hide-button').fadeIn(600)
     }, () => {
