@@ -2,11 +2,11 @@
     "mouseover": [
         {
             "selector": "article a[href^='http']",
-            "text": ["要看看 <span style=\"color:#E06020;\">{text}</span> 么？"]
+            "text": ["要看看 <span style=\"color:#BDDD9A;\">{text}</span> 么？"]
         },
 		{
 			"selector": ".post-content .post-title",
-			"text": ["要看看文章 <span style=\"color:#E06020;\">{text}</span> 么？"]
+			"text": ["要看看文章 <span style=\"color:#BDDD9A;\">{text}</span> 么？"]
 		},
 		{
 			"selector": ".cd-top",
