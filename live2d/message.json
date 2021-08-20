@@ -13,14 +13,6 @@
 			"text": ["回到开始的地方吧~"]
 		},
 		{
-			"selector": ".lower",
-			"text": ["博主很穷的说，快资助一下吧~ヾ(≧∇≦*)ゝ"]
-		},
-		{
-			"selector": ".single-reward",
-			"text": ["喜欢这篇文章吗？，喜欢就打赏一下吧~<br> ヾ(≧∇≦*)ゝ"]
-		},
-		{
 			"selector": "#video-btn",
 			"text": ["想看视频吗？可以先从左下角关闭背景音乐呢~"]
 		},
@@ -53,7 +45,7 @@
             "text": ["暂停"]
         },
         {
-            "selector": ".hide-live2d",
+            "selector": ".hide-button",
             "text": ["哼，你会后悔的！"]
         },
         {
