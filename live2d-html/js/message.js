@@ -57,7 +57,7 @@ function initTips(){
     });
 }
 initTips();
-/*
+
 (function (){
     var text;
     if(document.referrer !== ''){
@@ -100,15 +100,15 @@ initTips();
     }
     showMessage(text, 12000);
 })();
-*/
+
 window.setInterval(showHitokoto,25000);
 
 function showHitokoto(){
-   /* $.getJSON('https://v1.hitokoto.cn/',function(result){
+    $.getJSON('https://v1.hitokoto.cn/',function(result){
         showMessage(result.hitokoto, 15000);
-    });*/
+    });
 	
-	var s=[
+	/*var s=[
 		"你今天做事情了吗？",
 		"英语阅读写了吗？",
 		"你的计划按时完成了吗？",
@@ -153,7 +153,7 @@ function showHitokoto(){
         //紫色:#C586C0
 		showMessage(note, 15000);
 	}
-	
+	*/
 }
 
 function showMessage(text, timeout){
