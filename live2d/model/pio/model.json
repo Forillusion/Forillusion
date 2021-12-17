@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"model.moc",
     "textures":[
-        "http://www.forillusion.ltd/live2d-model.php"
+        "http://www.forillusion.ltd/api/live2d-model/"
     ],
     "layout":{
         "center_x":0.0,
